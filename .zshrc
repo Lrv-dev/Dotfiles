@@ -29,7 +29,8 @@ EDITOR=nvim
 
 alias gm=/usr/bin/gm
 alias python=python3
-
+unalias gm
+alias gm=/usr/local/bin/gm
 alias yt-dl=youtube-dl
 
 

@@ -12,6 +12,7 @@ let g:dracula_colorterm = 0
 set number
 set noshowmode
 set noswapfile
+set ruler
 
 " Relatiev Number 
 " set relativenumber
@@ -30,7 +31,6 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Splits and Tabbed Files
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -47,7 +47,7 @@ call plug#begin('~/.config/nvim/plugins')
 
 " List of my plugins
 Plug 'itchyny/lightline.vim'
-
+" Plug 'neovim/nvim-lspconfig'
 " End of list Plugins
 call plug#end()
 
