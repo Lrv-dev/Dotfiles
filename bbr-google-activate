@@ -1,0 +1,6 @@
+$ vi /etc/sysctl.d/10-kernel-bbr.conf
+  # net.core.default_qdisc = fq
+  # net.ipv4.tcp_congestion_control = bbr
+
+
+$ sudo sysctl --system
